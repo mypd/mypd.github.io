@@ -7,7 +7,7 @@
         let htmlString = '<ul>';
         console.log(data);
         for (let file of data) {
-          htmlString += `<li><a href="https://mypd.github.io/consents/${file.path}">${file.name}</a></li>`;
+          htmlString += `<li><a href="https://mypd.github.io/${file.path}">${file.name}</a></li>`;
         }
 
         htmlString += '</ul>';
